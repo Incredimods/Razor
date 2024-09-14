@@ -4,7 +4,7 @@ var app = new function() {
     this.version = "1",
     this.date = "2024", 
     this.folder = "asset-v1/", 
-    this.looptime = 15896,
+    this.looptime = 15900,
     this.bpm = 120, 
     this.totalframe = 260, 
     this.nbpolo = 7, 
@@ -22,13 +22,14 @@ var app = new function() {
     this.col2 = "#4b4b4b", 
     this.col3 = "#373737", 
     this.col4 = "#232323", 
-    this.animearray = [{
-        name: "01_Razor",
-        color: "828282",
-        uniqsnd: !0
-    }], this.bonusarray = [];
+    this.animearray = [
+    {name: "01_Razor", color: "828282", uniqsnd: !1}
+    ], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
-        this.animearray[n].soundA = a + "_a", this.animearray[n].soundB = this.animearray[n].uniqsnd ? a + "_a" : a + "_b", this.animearray[n].anime = a + "-sprite.png", this.animearray[n].animeData = a + ".json"
+        this.animearray[n].soundA = a + "_a", 
+        this.animearray[n].soundB = this.animearray[n].uniqsnd ? a + "_a" : a + "_b", 
+        this.animearray[n].anime = a + "-sprite.png", 
+        this.animearray[n].animeData = a + ".json"
     }
 };
