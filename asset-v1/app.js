@@ -24,7 +24,11 @@ var app = new function() {
     this.col4 = "#232323", 
     this.animearray = [
     {name: "01_Kick", color: "828282", uniqsnd: !0},
-    {name: "02_Razor", color: "828282", uniqsnd: !1}
+    {name: "02_Snare", color: "828282", uniqsnd: !0},
+    {name: "03_Hit_Hats", color: "828282", uniqsnd: !1},
+    {name: "04_Cobw", color: "828282", uniqsnd: !0},
+    {name: "05_Kah", color: "828282", uniqsnd: !0},
+    {name: "11_Razor", color: "828282", uniqsnd: !1}
     ], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
