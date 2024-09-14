@@ -28,7 +28,7 @@ var app = new function() {
     {name: "03_Hit_Hats", color: "828282", uniqsnd: !1},
     {name: "04_Cobw", color: "828282", uniqsnd: !0},
     {name: "05_Kah", color: "828282", uniqsnd: !0},
-    {name: "06_Ebass", color: "828282", uniqsnd: !0},
+    {name: "06_Ebass", color: "828282", uniqsnd: !1},
     {name: "11_Razor", color: "828282", uniqsnd: !1},
     {name: "12_Bruss", color: "828282", uniqsnd: !1}
     ], this.bonusarray = [];
