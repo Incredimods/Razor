@@ -15,11 +15,11 @@
 }
 
 .darkmode ::-webkit-scrollbar-track {
-    background: #0d021f
+    background: #a86e0a
 }
 
 .darkmode ::-webkit-scrollbar-thumb {
-    background: #1a0044
+    background: #a86e0a
 }
 
 .darkmode ::-webkit-scrollbar-thumb:hover {
